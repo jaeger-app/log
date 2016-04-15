@@ -100,4 +100,14 @@ class LogsTest extends \PHPUnit_Framework_TestCase
         $this->assertTrue(strpos($data, 'test error error message') !== FALSE);
         $logger->removeLogFile();
     }
+    
+    /**
+     * Returns the path to the log file for testing Log oject
+     *
+     * @return string
+     */
+    protected function getPathToLogFile()
+    {
+        return 'data/m62.ut.log';
+    }    
 }
