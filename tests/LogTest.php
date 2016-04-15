@@ -5,12 +5,11 @@
  * @copyright	Copyright (c) 2015-2016, mithra62
  * @link		http://jaeger-app.com
  * @version		1.0
- * @filesource 	./LogsTest.php
+ * @filesource 	./tests/LogsTest.php
  */
 namespace JaegerApp\tests\Traits;
 
-use mithra62\Traits\Log;
-use mithra62\tests\TestFixture;
+use JaegerApp\Traits\Log;
 
 /**
  * Mock for testing the Log Trait
@@ -31,7 +30,7 @@ class _logger
  * @package JaegerApp\Tests
  * @author Eric Lamb <eric@mithra62.com>
  */
-class LogsTest extends TestFixture
+class LogsTest extends \PHPUnit_Framework_TestCase
 {
 
     /**

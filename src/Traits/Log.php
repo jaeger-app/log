@@ -7,14 +7,14 @@
  * @version		1.0
  * @filesource 	./Traits/Log.php
  */
-namespace mithra62\Traits;
+namespace JaegerApp\Traits;
 
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 use Monolog\Formatter\LineFormatter;
 
 /**
- * mithra62 - Logging Trait
+ * Jaeger - Logging Trait
  *
  * Handles logging among all the other objects
  *
