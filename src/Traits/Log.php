@@ -1,12 +1,11 @@
 <?php
 /**
- * mithra62
+ * Jaeger
  *
- * @author		Eric Lamb <eric@mithra62.com>
- * @copyright	Copyright (c) 2015, mithra62, Eric Lamb.
- * @link		http://mithra62.com/
+ * @copyright	Copyright (c) 2015-2016, mithra62
+ * @link		http://jaeger-app.com
  * @version		1.0
- * @filesource 	./mithra62/Traits/Log.php
+ * @filesource 	./Traits/Log.php
  */
 namespace mithra62\Traits;
 
